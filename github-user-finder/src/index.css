@@ -5,3 +5,100 @@ body{
     background-color: #141D2F;;
     color: white;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.search-container{
+    background-color: #1F2A48;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+button{
+    background-color:#141D2F;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(40, 40, 184);
+}
+input{
+    width: 450px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 18px;
+    color: white;
+}
+input::placeholder{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+input:focus{
+    outline: none;
+}
+
+.data-container{
+      background-color: #1F2A48;
+      width: 600px;
+      height: 370px;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 10px;
+}
+.profile-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.first-container{
+    display: flex;
+    justify-content: start;
+}
+.user-name-data{
+    margin-left: 30px;
+}
+
+.name,.user-name,.bio{
+    margin-top: 0px;
+}
+.bio{
+    font-size: 20px;
+}
+.second-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    background-color: #141D2F;
+    border-radius: 10px;
+    width: 450px;  
+}
+
+.repositorys ,.followers ,.following{
+    margin-left: 20px;
+}
+h3{
+    text-align: center;
+}
+
+.third-container{
+    display: flex;
+    justify-content: center;  
+    margin-left: 30px; 
+}
+.child-second{
+    margin-left: 100px;
+}
+
+.icon{
+    margin-right: 8px;
+}

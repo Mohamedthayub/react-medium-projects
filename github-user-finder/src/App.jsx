@@ -20,10 +20,10 @@ const App = () => {
                     <div>
                         <img src={octocat} className="profile-photo" alt="user-profile-photo"></img>
                     </div>
-                    <div>
-                        <h1 className="username"></h1>
-                        <h2>@octocat</h2>
-                        <p>this  profile has no bio</p>
+                    <div className="user-name-data">
+                        <h1 className="name">Mohamed thayub</h1>
+                        <h2 className="user-name">@octocat</h2>
+                        <p className="bio">this  profile has no bio</p>
                     </div>
                 </div>
                 <div className="second-container">
@@ -40,14 +40,14 @@ const App = () => {
                         <h3>2</h3>
                     </div>
                 </div>
-                <div className="third-conainer">
+                <div className="third-container">
                     <div className="child-first">
-                        <h3><img src={locationIcon} ></img>Location</h3>
-                        <h3><img src={twitterIcon}></img>Twitter</h3>
+                        <h3 className="head3"><img src={locationIcon} className="icon"  ></img>Location</h3>
+                        <h3 className="head3"><img src={twitterIcon} className="icon"></img>Twitter</h3>
                     </div>
                     <div className="child-second">
-                        <h3> <img src={websiteIcon}></img>Website</h3>
-                        <h3><img src={companyIcon}></img>Company</h3>
+                        <h3 className="head3"><img src={websiteIcon} className="icon"></img>Website</h3>
+                        <h3 className="head3"><img src={companyIcon} className="icon"></img>Company</h3>
                     </div>
                 </div>
             </div>
